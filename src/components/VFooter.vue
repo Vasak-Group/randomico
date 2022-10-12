@@ -7,8 +7,8 @@
                         <h4>Contacta con nosotros</h4>
                         <p>Contactanos para poder resolver todas tus dudas y comenzar hoy con tu
                             proyecto</p><a class="btn btn-contact"
-                            href="https://wa.me/541123882753?text=Hola,%20me%20gustaria%20saber%20mas%20sobre%20los%20productos%20y%20ofertas%20de%20Lynx"><em
-                                class="fa fa-whatsapp"></em></a>
+                            href="mailto:info@vasak.net.ar"><em
+                                class="fa fa-envelope"></em></a>
                     </div>
                 </div>
             </div>
@@ -51,10 +51,6 @@
                             </a>
                             <a target="_black" title="mail" href="mailto:info@vasak.net.ar">
                                 <em class="fa fa-envelope"></em>
-                            </a>
-                            <a target="_black" title="whatsapp"
-                                href="https://wa.me/541123882753?text=Hola,%20me%20gustaria%20saber%20mas%20sobre%20los%20productos%20y%20ofertas%20de%20Lynx">
-                                <em class="fa fa-whatsapp"></em>
                             </a>
                             <a target="_black" title="linkedin" href="https://www.linkedin.com/company/vasakgroup/">
                                 <em class="fa fa-linkedin"></em>
