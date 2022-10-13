@@ -23,7 +23,7 @@
                             info@vasak.net.ar<br></p>
                     </div>
                     <div class="col-lg-4 col-md-6 footer-links text-center">
-                        <h4>Nuestros Servicios Gratuitos</h4>
+                        <h4>Otros Servicios Gratuitos</h4>
                         <ul>
                             <li>
                                 <em class="fa fa-chevron-right"></em>
