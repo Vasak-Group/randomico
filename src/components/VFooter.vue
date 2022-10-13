@@ -70,7 +70,11 @@
         </div>
     </footer>
 </template>
-<script></script>
-<style>
 
+<script></script>
+
+<style>
+footer{
+    margin-top: 30px;
+}
 </style>

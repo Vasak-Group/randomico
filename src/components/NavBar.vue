@@ -26,3 +26,9 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+header{
+    margin-bottom: 30px;
+}
+</style>
