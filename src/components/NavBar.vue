@@ -2,7 +2,7 @@
     <header id="header" class="d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
             <a href="/" class="logo">
-                <img src="/img/logo.svg" alt="Vasak Group" title="Vasak Group">
+                <img src="/img/logo.png" alt="Vasak Group" title="Vasak Group">
             </a>
 
             <nav id="navbar" class="navbar">
