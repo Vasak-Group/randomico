@@ -4,11 +4,13 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
-                        <h4>Contacta con nosotros</h4>
-                        <p>Contactanos para poder resolver todas tus dudas y comenzar hoy con tu
-                            proyecto</p><a class="btn btn-contact"
-                            href="mailto:info@vasak.net.ar"><em
-                                class="fa fa-envelope"></em></a>
+                        <h4>Danos tu Opinion</h4>
+                        <p>
+                            Ayudanos a mejorar dandonos tu opinion y tus ideas para que este producto se adapte mejor a vos
+                        </p>
+                        <a class="btn btn-contact" href="mailto:info@vasak.net.ar">
+                            <em class="fa fa-envelope"></em>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -20,7 +22,8 @@
                         <h3 class="v-font"><span>Vasak</span> group</h3>
                         <p> GBA Sur (Quilmes - Berazategui) <br> Buenos Aires<br> Argentina
                             <br><br><strong>Telefono:</strong> +54 9 11 2388-2753<br><strong>Email:</strong>
-                            info@vasak.net.ar<br></p>
+                            info@vasak.net.ar<br>
+                        </p>
                     </div>
                     <div class="col-lg-4 col-md-6 footer-links text-center">
                         <h4>Otros Servicios Gratuitos</h4>
@@ -74,7 +77,20 @@
 <script></script>
 
 <style>
-footer{
+footer {
     margin-top: 30px;
+}
+
+.btn-contact{
+    font-size: 25px;
+    color: #FFF;
+    background: var(--accent-color);
+    border: 0;
+    border-radius: var(--border-radius);
+    padding: 1rem 6rem;
+}
+
+.btn-contact:hover{
+    background: var(--accent-color-dark);
 }
 </style>

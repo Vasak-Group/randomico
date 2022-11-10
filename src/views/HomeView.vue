@@ -1,10 +1,13 @@
 <script>
+import WinnerAnnouncement from '../components/WinnerAnnouncement.vue'
+
 export default {
   data() {
     return {
       premio: "",
       text: "",
       winner: "",
+      selected: false,
     }
   },
   methods: {
@@ -12,10 +15,15 @@ export default {
       const list = this.text.split("\n")
       const random = Math.floor(Math.random() * list.length);
       this.winner = list[random]
+      this.selected = true
     },
+    close() {
+      this.selected = false
+    }
   },
   name: 'HomeView',
   components: {
+    WinnerAnnouncement
   },
 }
 </script>
@@ -34,7 +42,9 @@ export default {
       </div>
 
       <div class="col-md-8">
-        <textarea v-model="text" class="form-control" rows="10"></textarea>
+        <div class="mb-3">
+          <textarea v-model="text" class="form-control" rows="10"></textarea>
+        </div>
       </div>
 
       <div class="col-md-4 text-center">
@@ -43,17 +53,20 @@ export default {
         </button>
       </div>
     </div>
+    <WinnerAnnouncement @close="close()" v-if="selected" :winner="winner" :premio="premio" v-bind:selected="selected" />
   </div>
 </template>
 
 <style scoped>
-h1{
+h1 {
   margin-bottom: 20px;
 }
 
-.btn{
-  height: 100%;
+.btn {
+  height: calc(100% - 1rem);
   width: 100%;
+  padding: 1rem;
+  padding-bottom: 2rem;
   border-radius: var(--border-radius);
   font-size: 30px;
   font-weight: bold;
@@ -61,12 +74,13 @@ h1{
   border: 0px;
 }
 
-.btn:hover{
+.btn:hover {
   background: var(--accent-color-dark);
   border: 0px;
 }
 
-textarea, input{
+textarea,
+input {
   border-radius: var(--border-radius);
 }
 </style>
