@@ -51,7 +51,7 @@ export default {
             </div>
         </div>
         <div v-else class="text-center winannounce">
-            <h1 class="data">El Ganador es</h1>
+            <h1 class="data">El/La Ganador/a es</h1>
             <h1>{{ winner }}</h1>
             <h1 class="data">y se lleva</h1>
             <h1 class="premio">{{ premio }}</h1>
