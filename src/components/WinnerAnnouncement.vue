@@ -105,7 +105,7 @@ body {
 
 .loader {
     font-size: 10px;
-    margin: 30% auto;
+    margin: calc(50vh - 150px) auto;
     text-indent: -9999em;
     width: 11em;
     height: 11em;
